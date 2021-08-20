@@ -1638,10 +1638,10 @@ break
                   }
 	if (budy.startsWith(`say ara ara2`)) {
         const none = fs.readFileSync('./anishan/anime7.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})}
 	if (budy.startsWith(`say ara ara`)) {
         const none = fs.readFileSync('./anishan/anime6.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})			  
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})}			  
 	if (budy.startsWith(`La toca 7w7`)) {
         const none = fs.readFileSync('./anishan/anime5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
